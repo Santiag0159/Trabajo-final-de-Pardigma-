@@ -1,0 +1,28 @@
+{
+  "name": "trabajo-final-de-pardigma-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santiag0159/Trabajo-final-de-Pardigma-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santiag0159/Trabajo-final-de-Pardigma-/issues"
+  },
+  "homepage": "https://github.com/Santiag0159/Trabajo-final-de-Pardigma-#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
+}
