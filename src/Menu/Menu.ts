@@ -1,14 +1,14 @@
 import { entrada} from "../Funciones/Funciones";
 import { agregarTarea,verTarea,buscarTarea,eliminarTarea } from "../Funciones/FuncionesTareas";
 export function Menu(){
- console.log(' Gestor de tarea ');
- console.log('1 Agregar tarea ');
- console.log('2 Ver tarea');
- console.log('3 Buscar tarea');
- console.log('4 Eliminar tarea');
- console.log('0 Salir ');
- const opcion: string = entrada('Seleccione una opcion: ');
- switch (opcion){
+console.log(' Gestor de tarea ');
+console.log('1 Agregar tarea ');
+console.log('2 Ver tarea');
+console.log('3 Buscar tarea');
+console.log('4 Eliminar tarea');
+console.log('0 Salir ');
+const opcion: string = entrada('Seleccione una opcion: ');
+switch (opcion){
     case '1':
         agregarTarea();
         break;
@@ -31,5 +31,5 @@ export function Menu(){
         console.log(`Su opcion: "${opcion}". Intente de nuevo.`);
         Menu();
         break;
- }
+}
 }
